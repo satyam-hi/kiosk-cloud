@@ -89,8 +89,9 @@ export default function KioskCloudMainPage() {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {segments.map((seg, idx) => (
+            <Link href={seg.link} className="w-full" key={idx} >
             <div 
-              key={idx} 
+              
               className="group relative bg-gradient-to-b from-white/[0.07] to-white/[0.02] border border-white/10 hover:border-orange-500/40 rounded-[32px] p-8 md:p-10 transition-all duration-500 flex flex-col justify-between hover:-translate-y-2 backdrop-blur-xl"
             >
               <div>
@@ -116,6 +117,7 @@ export default function KioskCloudMainPage() {
                 </button>
               </Link>
             </div>
+            </Link>
           ))}
         </div>
       </section>
