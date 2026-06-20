@@ -19,6 +19,14 @@ export default function KioskCloudMainPage() {
       tag: "Smart Booking",
       link: "https://afrontselfbuty.vercel.app/provider-res", // Update with your actual beauty landing page route
     },
+    {
+      title: "Medical & Health",
+      subtitle: "Hospitals, Clinics & Wellness Centers",
+      desc: "Access healthcare services, book appointments, and manage your well-being with ease.",
+      icon: "🏥",
+      tag: "Smart Healthcare",
+      link: "https://afrontselfdr.vercel.app/provider-res", // Update with your actual medical landing page route
+    },
   ];
 
   const highlights = [
@@ -196,7 +204,7 @@ export default function KioskCloudMainPage() {
               <div className="p-4 bg-black/40 rounded-xl border border-white/5">
                 <p className="text-xs text-gray-500 font-bold uppercase">Basic Launch Package</p>
                 <p className="text-xl font-extrabold text-white mt-1">Take 7 days free trial</p>
-                <p className="text-xs text-gray-500 font-bold uppercase">Starting at ₹444 / Month</p>
+                <p className="text-xs text-gray-500 font-bold uppercase">Starting at ₹244 / Month</p>
 
               </div>
             </div>
@@ -209,6 +217,11 @@ export default function KioskCloudMainPage() {
             <Link href="https://afrontselfbuty.vercel.app/">
               <button className="w-full bg-orange-500 hover:bg-orange-600 transition px-6 py-4 rounded-xl font-bold text-lg shadow-lg shadow-orange-500/20 mt-2">
                 Get Started With Beauty & Wellness
+              </button>
+            </Link>
+              <Link href="https://afrontselfdr.vercel.app/">
+              <button className="w-full bg-orange-500 hover:bg-orange-600 transition px-6 py-4 rounded-xl font-bold text-lg shadow-lg shadow-orange-500/20 mt-2">
+                Medical & Health
               </button>
             </Link>
             <p className="text-xs text-gray-500 mt-4">No long contracts. Cancel your activation anytime.</p>
