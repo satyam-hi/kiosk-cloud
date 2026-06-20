@@ -203,7 +203,7 @@ export default function KioskCloudMainPage() {
             <div className="space-y-4 mb-6 text-left">
               <div className="p-4 bg-black/40 rounded-xl border border-white/5">
                 <p className="text-xs text-gray-500 font-bold uppercase">Basic Launch Package</p>
-                <p className="text-xl font-extrabold text-white mt-1">Take 7 days free trial</p>
+                <p className="text-xl font-extrabold text-white mt-1">Take 30 days free trial</p>
                 <p className="text-xs text-gray-500 font-bold uppercase">Starting at ₹244 / Month</p>
 
               </div>
