@@ -1,5 +1,5 @@
 import Link from "next/link";
-// import Footer from "@/app/component/web/footer";
+import Footer from "@/app/component/footer/page";
 
 export default function KioskCloudMainPage() {
   const segments = [
@@ -247,7 +247,7 @@ export default function KioskCloudMainPage() {
       </section>
 
       {/* FOOTER */}
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
