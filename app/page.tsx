@@ -128,6 +128,22 @@ export default function KioskCloudMainPage() {
         </div>
       </section>
 
+         <section id="provider-signup" className="py-12 md:py-16 px-4 md:px-6 max-w-7xl mx-auto relative">
+        <div className="bg-slate-950 text-white rounded-3xl p-8 md:p-14 lg:p-16 grid lg:grid-cols-12 gap-12 items-center relative overflow-hidden shadow-2xl">
+          
+          
+          <div className="lg:col-span-7 relative z-10">
+            <Image src="/KioskCloud_Insta_2_HowItWorks.png" alt="youtube" width={600} height={500} />
+          </div>
+
+          <div className="lg:col-span-5 bg-white text-slate-900 p-6 md:p-8 rounded-2xl text-center relative z-10 shadow-2xl border border-slate-100">
+           <Image src="/KioskCloud_Insta_1_BigPicture.png" alt="youtube" width={600} height={500} />          
+          </div>
+
+          
+        </div>
+      </section>
+
       {/* 3. PLATFORM EXPLANATION / BENTO GALLERY */}
       <section className="py-24 md:py-32 px-4 md:px-6 bg-slate-50 border-y border-slate-100/80">
         <div className="max-w-6xl mx-auto">
@@ -239,12 +255,12 @@ export default function KioskCloudMainPage() {
             Acquire our cross-platform client app, inspect localized active workflows, and streamline business hours.
           </p>
           <div className="mt-8">
-            <Link href="https://youtu.be/HU3jMu-pzH0?si=P86fi78fJsuZAf9-"className="bg-white hover:bg-slate-50 text-slate-950 px-8 py-3.5 rounded-xl font-semibold text-sm transition-all shadow-md hover:shadow-lg m-2">
+            <Link href="https://youtu.be/HU3jMu-pzH0?si=P86fi78fJsuZAf9-"className="bg-white hover:bg-slate-50 text-slate-950 px-8 py-3.5 rounded-xl font-semibold text-sm transition-all shadow-md hover:shadow-lg m-2 mb-4">
             <button >
               Watch setup & demo video
             </button>
             </Link>
-            <button className="bg-white hover:bg-slate-50 text-slate-950 px-8 py-3.5 rounded-xl font-semibold text-sm transition-all shadow-md hover:shadow-lg m-2 ">
+            <button className="bg-white hover:bg-slate-50 text-slate-950 px-8 py-3.5 rounded-xl font-semibold text-sm transition-all shadow-md hover:shadow-lg m-2 mt-4 ">
               Why use KioskCloud?
             </button>
             {/* <button className="bg-white hover:bg-slate-50 text-slate-950 px-8 py-3.5 rounded-xl font-semibold text-sm transition-all shadow-md hover:shadow-lg m-2">
