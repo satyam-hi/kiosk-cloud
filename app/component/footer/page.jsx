@@ -47,21 +47,21 @@ export default function Footer(){
                       href="https://youtu.be/HU3jMu-pzH0?si=qgntLC_dDychn_0w"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      <Image src="/imagesf.jfif" alt="youtube" width={24} height={24} />
+                      <Image src="/Youtube_logo.png" alt="youtube" width={24} height={24} />
                     </a>
     
                     <a
                       href="https://www.instagram.com/kiosk_cloud"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      <Image src="/images.jfif" alt="youtube" width={24} height={24} />
+                      <Image src="/Instagram_icon.png" alt="youtube" width={24} height={24} />
                     </a>
     
                     <a
                       href="https://www.facebook.com/profile.php?id=61590685053048"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      <Image src="/imagesfacebook.jfif" alt="youtube" width={24} height={24} />
+                      <Image src="/Facebook_Logo_2023.png" alt="youtube" width={24} height={24} />
                     </a>
     
                     {/* <a
