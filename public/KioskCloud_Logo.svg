@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="300" viewBox="0 0 800 300"
+     xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="KioskCloud Logo">
+  <title>KioskCloud — Local Services · On Demand</title>
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F4C5C"/>
+      <stop offset="100%" style="stop-color:#1A6B80"/>
+    </linearGradient>
+    <linearGradient id="dotGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B5B"/>
+      <stop offset="100%" style="stop-color:#FF8C5A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── ICON MARK ── -->
+  <!-- Outer rounded square -->
+  <rect x="20" y="30" width="240" height="240" rx="52" ry="52" fill="url(#iconGrad)"/>
+
+  <!-- 3x3 grid of service tiles (white rounded squares) -->
+  <!-- Row 1 -->
+  <rect x="68" y="88" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="122" y="88" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="176" y="88" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Row 2 -->
+  <rect x="68" y="142" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Center accent: coral QR tile -->
+  <rect x="112" y="132" width="56" height="56" rx="14" fill="url(#dotGrad)"/>
+  <rect x="122" y="142" width="10" height="10" rx="2" fill="#FFFFFF"/>
+  <rect x="138" y="142" width="10" height="10" rx="2" fill="#FFFFFF"/>
+  <rect x="122" y="158" width="10" height="10" rx="2" fill="#FFFFFF"/>
+  <rect x="138" y="158" width="10" height="10" rx="2" fill="#FFFFFF"/>
+  <rect x="176" y="142" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <!-- Row 3 -->
+  <rect x="68" y="196" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="122" y="196" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="176" y="196" width="36" height="36" rx="8" fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- Coral notification dot (top-right) -->
+  <circle cx="248" cy="42" r="18" fill="url(#dotGrad)"/>
+
+  <!-- ── WORDMARK ── -->
+  <text x="290" y="168"
+    font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif"
+    font-size="96" font-weight="800" fill="#0F4C5C" letter-spacing="-2">Kiosk</text>
+  <text x="290" y="248"
+    font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif"
+    font-size="96" font-weight="800" fill="#FF6B5B" letter-spacing="-2">Cloud</text>
+
+  <!-- Tagline -->
+  <text x="293" y="282"
+    font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif"
+    font-size="22" font-weight="600" fill="#5C6B7A" letter-spacing="5">LOCAL SERVICES · ON DEMAND</text>
+</svg>

@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 export default function Footer(){
     return(<>
@@ -19,6 +21,7 @@ export default function Footer(){
     
                     <div className="w-14 h-14 rounded-2xl bg-orange-500 flex items-center justify-center text-2xl shadow-lg shadow-orange-500/30">
                       
+                        <Image src="/KioskCloud_Icon.png" alt="KioskCloud Logo" width={120} height={120}  />
                     </div>
     
                     <div>
@@ -41,32 +44,32 @@ export default function Footer(){
                   <div className="flex gap-4 mt-8">
     
                     <a
-                      href="#"
+                      href="https://youtu.be/HU3jMu-pzH0?si=qgntLC_dDychn_0w"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      📘
+                      <Image src="/imagesf.jfif" alt="youtube" width={24} height={24} />
                     </a>
     
                     <a
-                      href="#"
+                      href="https://www.instagram.com/kiosk_cloud"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      📷
+                      <Image src="/images.jfif" alt="youtube" width={24} height={24} />
                     </a>
     
                     <a
-                      href="#"
+                      href="https://www.facebook.com/profile.php?id=61590685053048"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
-                      🐦
+                      <Image src="/imagesfacebook.jfif" alt="youtube" width={24} height={24} />
                     </a>
     
-                    <a
+                    {/* <a
                       href="#"
                       className="w-11 h-11 rounded-xl bg-white/5 border border-white/10 hover:bg-orange-500 hover:border-orange-500 transition flex items-center justify-center"
                     >
                       💼
-                    </a>
+                    </a> */}
     
                   </div>
     
@@ -193,7 +196,9 @@ export default function Footer(){
                         </p>
     
                         <p className="text-gray-300">
-                          satyamkuart111@gmail.com
+                          <a href="mailto:satyamkuart111@gmail.com" className="text-gray-300 hover:text-orange-400 transition">
+                            satyamkuart111@gmail.com
+                          </a>
                         </p>
                       </div>
     
@@ -207,11 +212,13 @@ export default function Footer(){
     
                       <div>
                         <p className="text-gray-500 text-sm">
-                          Phone
+                          Phone / whatsapp
                         </p>
     
-                        <p className="text-gray-300">
-                          +91 8319445102
+                        <p className="text-gray-300" >
+                          <a href="tel:+918319445102" className="text-gray-300 hover:text-orange-400 transition">
+                            +91 8319445102
+                          </a>
                         </p>
                       </div>
     
