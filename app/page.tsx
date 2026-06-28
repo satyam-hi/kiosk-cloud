@@ -128,7 +128,7 @@ export default function KioskCloudMainPage() {
         </div>
       </section>
 
-         <section id="provider-signup" className="py-12 md:py-16 px-4 md:px-6 max-w-7xl mx-auto relative">
+         <section  className="py-12 md:py-16 px-4 md:px-6 max-w-7xl mx-auto relative">
         <div className="bg-slate-950 text-white rounded-3xl p-8 md:p-14 lg:p-16 grid lg:grid-cols-12 gap-12 items-center relative overflow-hidden shadow-2xl">
           
           
@@ -269,6 +269,41 @@ export default function KioskCloudMainPage() {
           </div>
         </div>
       </section>
+
+      <section  className="py-10 md:py-6 px-4 md:px-6 bg-slate-50 border-y border-slate-100/80">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-5 items-center mb-10">
+            <div className="lg:col-span-1">
+              <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-slate-900 mb-6">
+                KioskCloud: The Future of Service Interaction
+              </h2>
+              <p className="text-slate-600 text-base md:text-lg max-w-2xl leading-relaxed">
+                Experience the next level of service interaction with KioskCloud. Our platform seamlessly connects consumers to top-tier restaurants, premium wellness spaces, and healthcare environments instantly. Explore nearby locations or scale your digital brand with ease.
+              </p>
+            </div>
+            <div className="lg:col-span-1">
+              <Image src="/Kiosk-Cloud-Investor-Presentation-06-27-2026_06_35_PM.png" alt="Future of Service Interaction" width={1000} height={800} className="rounded-xl shadow-lg" />
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section  className="py-24 md:py-32 px-4 md:px-6 bg-slate-50 border-y border-slate-100/80">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-5 items-center mb-10">
+            <div className="lg:col-span-1">
+            <Image src="/KioskCloud_Platform_Overview-pdf-06-27-2026_06_38_PM.png" alt="Future of Service Interaction" width={1000} height={1000} className="rounded-xl shadow-lg" />
+            </div>
+            <div className="lg:col-span-1">
+              <Image src="/KioskCloud_Platform_Overview-pdf-06-27-2026_06_39_PM.png" alt="Future of Service Interaction" width={1000} height={1000} className="rounded-xl shadow-lg" />
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
 
       {/* FOOTER */}
       <Footer />
